@@ -1,0 +1,333 @@
+@import './include_media.scss';
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+$primary: #000000;
+$secondary: #434242;
+
+$small: 400px;
+
+.fadeOut {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+
+.fadeIn {
+    opacity: 1;
+    width: 100px;
+    height: 100px;
+    transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+
+.project_types_container {
+    display: flex;
+    gap: 8px;
+
+
+    .project_type {
+        border-style: solid;
+        width: fit-content;
+        height: fit-content;
+        border-width: 2px;
+        padding: 4px 8px 4px 8px;
+        font-size: 12px;
+        border-color: #000000;
+        font-weight: 600;
+        border-radius: 32px;
+        margin-bottom: 16px;
+
+        @include media("<=phone") {
+            font-size: 10px;
+            border-width: 1px;
+            margin-bottom: 8px;
+        }
+    }
+
+    .project_type:hover {
+        background-color: #f3f3f3;
+        cursor: pointer;
+    }
+
+    .project_type_clicked {
+        border-style: solid;
+        width: fit-content;
+        height: fit-content;
+        border-width: 2px;
+        padding: 4px 8px 4px 8px;
+        font-size: 12px;
+        border-color: #000000;
+        font-weight: 600;
+        border-radius: 32px;
+        background-color: #000000;
+        color: white;
+        margin-bottom: 16px;
+
+        @include media("<=phone") {
+            font-size: 10px;
+            border-width: 1px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+
+.root {
+    .header_container {
+        height: fit-content;
+        width: 100%;
+        background-color: $primary;
+        padding-top: 32px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        @include media("<=phone") {
+            padding-top: 16px;
+        }
+
+        .profile {
+            max-width: 750px;
+            color: white;
+            margin: 0 auto;
+            display: flex;
+
+
+            .photo {
+                width: 112px;
+                border-radius: 50%/50%;
+
+                @include media("<=phone") {
+                    width: 72px;
+                    height: 72px;
+                }
+            }
+
+            .title_container {
+                padding-left: 16px;
+                @include media("<=phone") {
+                    padding-left: 12px;
+                }
+
+                .name {
+                    font-size: 22px;
+                    font-weight: 500;
+
+                    @include media("<=phone") {
+                        font-size: 18px;
+                    }
+                }
+
+                .title {
+                    font-size: 14px;
+                    font-weight: 300;
+
+                    @include media("<=phone") {
+                        font-size: 10px;
+                    }
+                }
+
+                .social_icons {
+                    display: flex;
+                    gap: 12px;
+                    padding-top: 8px;
+                    align-items: center;
+
+                    @include media("<=phone") {
+                        gap: 8px;
+                    }
+
+                    .social {
+                        width: 28px;
+
+                        @include media("<=phone") {
+                            width: 22px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bio {
+            color: white;
+            max-width: 750px;
+            margin: 0 auto;
+            font-weight: 300;
+            padding-top: 16px;
+            padding-bottom: 16px;
+
+            @include media("<=phone") {
+                font-size: 13px;
+            }
+        }
+
+        .social_links{
+            max-width: 750px;
+            margin: 0 auto;
+            height: auto;
+            padding-bottom: 16px;
+
+            .social_link{
+                color: white;
+                text-decoration: none;
+                width: fit-content;
+                height: fit-content;
+                font-size: 10px;
+                border-style: solid;
+                border-radius: 20px;
+                border-width: 1px;
+                padding: 4px 8px 4px 8px;
+                display: inline-block;
+                margin-right: 8px;
+                margin-bottom: 8px;
+
+            }
+            .social_link:hover{
+                color: black;
+                background-color: white;
+            }
+        }
+    }
+
+    .content_container {
+        max-width: 750px;
+        margin: 0 auto;
+        padding-top: 32px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        @include media("<=phone") {
+            padding-top: 16px;
+        }
+
+        .content_section {
+            display: flex;
+            gap: 8px;
+
+            .content_header {
+                font-weight: 600;
+                color: $secondary;
+                width: 25%;
+                font-size: 16px;
+
+                @include media("<=phone") {
+                    font-size: 13px;
+                }
+
+                margin-bottom: 32px;
+
+                @include media("<=phone") {
+                    margin-bottom: 16px;
+                }
+            }
+
+            .content {
+                width: 75%;
+                margin-bottom: 32px;
+
+                @include media("<=phone") {
+                    margin-bottom: 16px;
+                }
+
+                .small_content_item {
+                    font-size: 15px;
+
+                    @include media("<=phone") {
+                        font-size: 13px;
+                    }
+
+                    .title {
+                        font-weight: 500;
+                    }
+
+                    .body {
+                        font-weight: 400;
+                    }
+                }
+
+                .large_content_item {
+                    margin-bottom: 16px;
+                    @include media("<=phone") {
+                        margin-bottom: 8px;
+                    }
+
+                    .title {
+                        font-size: 16px;
+                        font-weight: 500;
+
+                        @include media("<=phone") {
+                            font-size: 13px;
+                        }
+
+                        img {
+                            width: 12px;
+
+                            @include media("<=phone") {
+                                width: 8px;
+                            }
+                        }
+                    }
+
+                    .subtitle {
+                        font-size: 14px;
+                        color: $secondary;
+                        font-weight: 300;
+
+                        @include media("<=phone") {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .body {
+                        font-size: 14px;
+
+                        @include media("<=phone") {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .language_selector {
+        margin-right: 0px;
+        margin-left: auto;
+        display: flex;
+        gap: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+        cursor: pointer;
+
+        @include media("<=phone") {
+            font-size: 12px;
+        }
+
+        .item {
+            padding: 2px 4px 2px 4px;
+        }
+
+        .item_clicked {
+            padding: 2px 4px 2px 4px;
+            background-color: aliceblue;
+            border-radius: 2px;
+            color: $primary;
+        }
+    }
+
+    .copyright_title {
+        text-align: center;
+        font-weight: 300;
+        font-size: 12px;
+        color: $secondary;
+
+        @include media("<=phone") {
+            font-size: 10px;
+        }
+    }
+}

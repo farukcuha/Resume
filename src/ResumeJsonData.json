@@ -1,0 +1,454 @@
+{
+    "links": [
+        {
+            "link_title": "Linkedin",
+            "link_icon": "/images/linkedin.png",
+            "link_url": "https://www.linkedin.com/in/ahmetfarukcuha/"
+        },
+        {
+            "link_title": "GitHub",
+            "link_icon": "/images/github.png",
+            "link_url": "https://github.com/farukcuha"
+        },
+        {
+            "link_title": "Upwork",
+            "link_icon": "/images/upwork.png",
+            "link_url": "https://www.upwork.com/freelancers/ahmetfarukcuha"
+        },
+        {
+            "link_title": "Mail",
+            "link_icon": "/images/mail.png",
+            "link_url": "mailto:ahmetfarukcuha@gmail.com"
+        },
+        {
+            "link_title": "Twitter",
+            "link_icon": "/images/twitter.png",
+            "link_url": "https://twitter.com/faruk__cuha"
+        }
+    ],
+    "contents": [
+        {
+            "language": "EN",
+            "photo_url": "/images/profile_photo.jpg",
+            "name": "Ahmet Faruk Cuha",
+            "title": "Freelancer Software Developer | Student",
+            "bio": " An ambitious, dreamer, results-oriented, control freak, and aggressive computer engineering student and developer. He's also thoughtful, helpful, friendly and extremely egalitarian in the background. He thinks code reading is more critical than code writing. Although he is prone to teamwork, he can turn into an annoying person when asked to do something irrational. There is a relationship of interest, not love, with programming languages.",
+            "skills": {
+                "title": "Skills",
+                "sections": [
+                    {
+                        "title": "OOP - SOLID",
+                        "description": "I strive to blend OOP and SOLID principles in the all web and mobile projects that I developed or contributed. These will always stay with me when I step into another technology."
+                    },
+                    {
+                        "title": "Abstraction",
+                        "description": "I think abstraction skill is the best comparator between junior, middle, and senior developers even if they are on different platforms. I do my best in all the projects I work on about this."
+                    },
+                    {
+                        "title": "Java - Kotlin",
+                        "description": "I started my software adventure with java programming. I developed native android projects with java. Then I continued to android with kotlin. I also developed restful web services with java and kotlin for my mobile apps. I have more familiar with these languages than others."
+                    },
+                    {
+                        "title": "Native Android Development",
+                        "description": "I am skilled in developing native android apps with kotlin and experienced with MVVM, jetpack libraries, and dependency injection. I push the limits to write clean and reusable code."
+                    },
+                    {
+                        "title": "HTML-CSS-JavaScript",
+                        "description": "I created this web page with React. My next plan is continueing with web development. I am gonna work with Node.js"
+                    },
+                    {
+                        "title": "Git - Version Control Systems",
+                        "description": "I do not neglect to use git both in my own projects and in my freelancer projects."
+                    }
+                ]
+            },
+            "experiences": {
+                "title": "Experience",
+                "sections": [
+                    {
+                        "title": "Freelancer Software Developer",
+                        "subtitle": "Upwork (Top Rated) | 2020 March - Present",
+                        "descriptions": [
+                            "Last 2 years I am working as a freelancer android developer on the most popular platforms (upwork-freelancer). I created apps from scratch and was involved in scaled projects with feature-developing roles. Currently, I am badged Top-Rated in Upwork."
+                        ],
+                        "url": "https://www.upwork.com/freelancers/ahmetfarukcuha"
+                    }
+                ]
+            },
+            "projects": {
+                "title": "Projects",
+                "categories": [
+                    {
+                        "category": "Native Android",
+                        "projects": [
+                            {
+                                "title": "Pin Traveler",
+                                "subtitle": "Specific Features Developing | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Travel util app that allows to users to save their locations",
+                                    "Google Maps SDK, Firebase"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pintraveler.pintraveler"
+                            },
+                            {
+                                "title": "Simple Notes",
+                                "subtitle": "Specific Features Developing | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Multi functional advanced note app",
+                                    "Firebase - Hilt"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pp.checklist"
+                            },
+                            {
+                                "title": "OneXp",
+                                "subtitle": "Specific Features Developing | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Worldwide sport coaching app",
+                                    "MVVM, Retrofit, CameraX, Hilt"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=uk.co.onexp.onexp"
+                            },
+                            {
+                                "title": "Hal Fiyatları",
+                                "subtitle": "Create-Publish | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Vegetable stock market app that was developed for farmers who are espeacially from Antalya",
+                                    "MVVM, Jetpack Compose, Room, Retrofit, Hilt"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pandorina.hal_fiyatlar"
+                            },
+                            {
+                                "title": "Uzman Öğretmenlik",
+                                "subtitle": "Create-Publish | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Exam questions app for teachers speacialist exam",
+                                    "MVVM, Room, Ktor, Hilt"
+                                ],
+                                "description": "MVVM, Room, Ktor, Hilt",
+                                "url": "https://play.google.com/store/apps/details?id=com.pandorina.uzman_ogretmenlik"
+                            },
+                            {
+                                "title": "Cinemobile",
+                                "subtitle": "Open Source | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Movie discovering app",
+                                    "MVVM, Room, Retrofit, Hilt"
+                                ],
+                                "url": "https://github.com/farukcuha/Cinemobile"
+                            },
+                            {
+                                "title": "Legendary Quotes",
+                                "subtitle": "Open Source | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Simple quote saving app",
+                                    "MVVM, Room, Hilt"
+                                ],
+                                "url": "https://github.com/farukcuha/LegendaryQuotes"
+                            },
+                            {
+                                "title": "Periodic Table",
+                                "subtitle": "Open Source | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Colorful periodic table",
+                                    "Android SDK"
+                                ],
+                                "url": "https://github.com/farukcuha/PeriodicTableApp"
+                            },
+                            {
+                                "title": "Arise",
+                                "subtitle": "Create-Publish | Kotlin : Native Android | 2021",
+                                "descriptions": [
+                                    "Funny productivity app to manage time more efficent",
+                                    "Motion Layout, Animations"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pandorina.arise"
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Web",
+                        "projects": [
+                            {
+                                "title": "Meal Rating",
+                                "subtitle": "Develop-Deploy | Node.js : React (MERN) | 2023",
+                                "descriptions": [
+                                    "A web application that allows to write meal reviews and display statistic by them."
+                                ],
+                                "url": "https://yemekdegerlendirme.web.app"
+                            },
+                            {
+                                "title": "Personal Resume",
+                                "subtitle": "Develop-Deploy | Javascript : React | 2023",
+                                "descriptions": [
+                                    "My single page personal resume"
+                                ],
+                                "url": "https://resume.ahmetfarukcuha.me"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "education": {
+                "title": "Education",
+                "sections": [
+                    {
+                        "title": "Erciyes University",
+                        "subtitle": "Bachelor's Degree | 2021 - 2025",
+                        "descriptions": []
+                    },
+                    {
+                        "title": "Kocaeli University",
+                        "subtitle": "English Preparation | 2020 - 2021",
+                        "descriptions": []
+                    }
+                ]
+            },
+            "languages": {
+                "title": "Languages",
+                "sections": [
+                    {
+                        "title": "English",
+                        "description": "I have enough English to understand and write an article written in English. I can express myself in a programming interview."
+                    },
+                    {
+                        "title": "Turkish",
+                        "description": "This language was setted default when I was created."
+                    }
+                ]
+            },
+            "hobbies": {
+                "title": "Hobbies",
+                "sections": [
+                    {
+                        "title": "Indie Development",
+                        "description": ""
+                    },
+                    {
+                        "title": "Age of Empires",
+                        "description": ""
+                    },
+                    {
+                        "title": "Nature Walking",
+                        "description": ""
+                    },
+                    {
+                        "title": "F1 - Football",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        {
+            "language": "TR",
+            "photo_url": "/images/profile_photo.jpg",
+            "name": "Ahmet Faruk Çuha",
+            "title": "Freelancer Yazılım Mühendisi | Öğrenci",
+            "bio": "Hırslı, hayalperest, sonuç odaklı, kontrol manyağı ve agresif bir bilgisayar mühendisliği öğrencisi. Aynı zamanda düşünceli, yardımsever, arkadaş canlısı ve son derece eşitlikçi bir kişi. Kod okumanın kod yazmaktan daha kritik olduğunu düşünüyor. Takım çalışmasına yatkın olmakla birlikte mantık dışı bir şey yapması istendiğinde gıcık birine dönebilir. Programlama dilleri ile arasında aşk değil, çıkar ilişkisi vardır. ",
+            "skills": {
+                "title": "Yetenekler",
+                "type": 0,
+                "sections": [
+                    {
+                        "title": "Nesne Yönelimli Programlama - SOLID",
+                        "description": "Geliştirdiğim veya katkıda bulunduğum tüm web ve mobil projelerde OOP ve SOLID ilkelerine odaklanıyorum. Başka bir teknolojiye adım attığımda bunlar hep benimle kalacak."
+                    },
+                    {
+                        "title": "Abstraction",
+                        "description": "Abstract düşünebilme becerisinin, farklı platformlarda olsalar bile junior, mid ve senior düzeydeki geliştiriciler arasındaki en iyi karşılaştırma olduğunu düşünüyorum. Bu yetimi geliştirmek için çok çabalıyorum."
+                    },
+                    {
+                        "title": "Java - Kotlin",
+                        "description": "Yazılım serüvenime java programlama ile başladım. Java ile native android projeleri geliştirdim. Daha sonra kotlin ile devam ettim. Ayrıca mobil uygulamalarım için java ve kotlin ile restful web servisler geliştirdim."
+                    },
+                    {
+                        "title": "Native Android Uygulama Geliştirme",
+                        "description": "Kotlin ile native android uygulama geliştirme konusunda yetenekliyim ve MVVM, Jetpack kütüphaneleri ve dependency injection konusunda deneyimliyim. Temiz ve yeniden kullanılabilir kod yazmak için sınırları zorluyorum."
+                    },
+                    {
+                        "title": "HTML-CSS-JavaScript",
+                        "description": "Bu web sayfasını react ile oluşturdum."
+                    },
+                    {
+                        "title": "Git - Versiyon Kontrol Sistemleri",
+                        "description": "Git'i hem kendi projelerimde hem de freelancer projelerimde kullanmayı ihmal etmiyorum."
+                    }
+                ]
+            },
+            "experiences": {
+                "title": "Deneyim",
+                "sections": [
+                    {
+                        "title": "Freelancer Android Geliştirici",
+                        "subtitle": "Upwork (Top Rated) | 2020 Mart - Bugün",
+                        "descriptions": [
+                            "Son 2 yıldır en popüler platformlarda (upwork-freelancer) freelancer android geliştiricisi olarak çalışıyorum. Sıfırdan uygulamalar geliştirdim, büyük projelerde yer aldım. Şu anda Upwork'te Top-Rated rozetine sahibim."
+                        ],
+                        "url": "https://www.upwork.com/freelancers/ahmetfarukcuha"
+                    }
+                ]
+            },
+            "projects": {
+                "title": "Projeler",
+                "categories": [
+                    {
+                        "category": "Native Android",
+                        "projects": [
+                            {
+                                "title": "Pin Traveler",
+                                "subtitle": "Spesifik Özellik Geliştirme | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Seyahat yardımcı uygulaması",
+                                    "Google Maps SDK, Firebase"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pintraveler.pintraveler"
+                            },
+                            {
+                                "title": "Simple Notes",
+                                "subtitle": "Spesifik Özellik Geliştirme | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Gelişmiş not uygulaması",
+                                    "Firebase - Hilt"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pp.checklist"
+                            },
+                            {
+                                "title": "OneXp",
+                                "subtitle": "Spesifik Özellik Geliştirme | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Küresel birebir antrenörlük uygulaması",
+                                    "MVVM, Retrofit, CameraX, Hilt"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=uk.co.onexp.onexp"
+                            },
+                            {
+                                "title": "Hal Fiyatları",
+                                "subtitle": "Spesifik Geliştirme - Yayınlama | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Özellikle Antalya'da yaşayan çiftçiler için meyve-sebze hali piyasası takip uygulaması",
+                                    "MVVM, Jetpack Compose, Room, Retrofit, Hilt"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pandorina.hal_fiyatlar"
+                            },
+                            {
+                                "title": "Uzman Öğretmenlik Sınavı",
+                                "subtitle": "Geliştirme - Yayınlama | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Öğretmenler için uzman öğretmenlik sınavına özel soru çözüm uygulaması",
+                                    "MVVM, Room, Ktor, Hilt"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pandorina.uzman_ogretmenlik"
+                            },
+                            {
+                                "title": "Cinemobile",
+                                "subtitle": "Açık Kaynak | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Film keşfetme uygulaması",
+                                    "MVVM, Room, Retrofit, Hilt"
+                                ],
+                                "url": "https://github.com/farukcuha/Cinemobile"
+                            },
+                            {
+                                "title": "Legendary Quotes",
+                                "subtitle": "Açık Kaynak | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Alıntı, özlü söz kaydetme uygulaması",
+                                    "MVVM, Room, Hilt"
+                                ],
+                                "url": "https://github.com/farukcuha/LegendaryQuotes"
+                            },
+                            {
+                                "title": "Periodic Table",
+                                "subtitle": "Açık Kaynak | Kotlin : Native Android | 2022",
+                                "descriptions": [
+                                    "Renkli periyodik tablo uygulaması",
+                                    "Android SDK"
+                                ],
+                                "url": "https://github.com/farukcuha/PeriodicTableApp"
+                            },
+                            {
+                                "title": "Arise",
+                                "subtitle": "Geliştirme - Yayınlama | Kotlin : Native Android | 2021",
+                                "descriptions": [
+                                    "Bol animasyonlu zaman yönetimi uygulaması",
+                                    "Motion Layout, Animations"
+                                ],
+                                "url": "https://play.google.com/store/apps/details?id=com.pandorina.arise"
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Web",
+                        "projects": [
+                            {
+                                "title": "Yemek Değerlendirme",
+                                "subtitle": "Geliştirme - Yayınlama | Node.js : React (MERN) | 2023",
+                                "descriptions": [
+                                    "Anonim kullanıcıların öğünlere göre yemek değerlendirmesine olanak sağlayan web uygulaması."
+                                ],
+                                "url": "https://yemekdegerlendirme.web.app"
+                            },
+                            {
+                                "title": "Kişisel CV",
+                                "subtitle": "Geliştirme - Yayınlama | JavaScript : React | 2023",
+                                "descriptions": [
+                                    "Bu web sayfası :)"
+                                ],
+                                "url": "https://resume.ahmetfarukcuha.me"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "education": {
+                "title": "Eğitim",
+                "sections": [
+                    {
+                        "title": "Erciyes Üniversitesi",
+                        "subtitle": "Lisans | 2021 - 2025",
+                        "descriptions": []
+                    },
+                    {
+                        "title": "Kocaeli Üniversitesi",
+                        "subtitle": "İngilizce Hazırlık | 2020 - 2021",
+                        "descriptions": []
+                    }
+                ]
+            },
+            "languages": {
+                "title": "Diller",
+                "sections": [
+                    {
+                        "title": "İngilizce",
+                        "description": "İçerik okuyup, anlayacak ve yazacak kadar ingilizceye sahibim. İngilizce mülakatlara girmekten geri durmam."
+                    },
+                    {
+                        "title": "Türkçe",
+                        "description": "Doğduğumda varsayılan olarak ayarlandı."
+                    }
+                ]
+            },
+            "hobbies": {
+                "title": "Hobiler",
+                "sections": [
+                    {
+                        "title": "Indie Development",
+                        "description": ""
+                    },
+                    {
+                        "title": "Age of Empires",
+                        "description": ""
+                    },
+                    {
+                        "title": "Nature Walking",
+                        "description": ""
+                    },
+                    {
+                        "title": "F1 - Football",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "signature": "© 2023 Ahmet Faruk Çuha"
+}
